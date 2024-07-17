@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Handle user registration
+    
     const registerForm = document.getElementById('register-form');
     if (registerForm) {
       registerForm.addEventListener('submit', (e) => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   
-    // Handle user login
+    
     const loginForm = document.getElementById('login-form');
     if (loginForm) {
       loginForm.addEventListener('submit', (e) => {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   
-    // Handle user logout
+    
     const logoutButton = document.getElementById('logout');
     if (logoutButton) {
       logoutButton.addEventListener('click', () => {
